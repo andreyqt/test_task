@@ -43,9 +43,6 @@ public class User {
     @Column(name = "phone", length = 32, unique = true)
     private String phone;
 
-    @Column(name = "password", length = 128, nullable = false)
-    private String password;
-
     @Column(name = "active", nullable = false)
     private boolean active;
 
